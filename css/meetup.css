@@ -1,0 +1,27 @@
+.navbar-brand img {
+	max-height: 37px;
+}
+nav.navbar {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.meetup-infos {
+
+}
+.meetup-infos li {
+	margin: 15px 0;
+}
+
+.meetup-infos h2 {
+	font-size: 35px;
+	margin: 0 0 5px 0;
+}
+.meetup-infos h3 {
+	font-size: 28px;
+	margin: 0 0 5px 0;
+}
+
+.meetup-infos h4 {
+	font-size: 20px;
+	margin: 0 0 5px 0;
+}

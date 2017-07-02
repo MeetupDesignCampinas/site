@@ -1,0 +1,71 @@
+
+#nav-fluid-logo-menu-btn-2 .nav-bg {
+	background: #353b4a;
+	opacity: 1;
+}
+.nav-bg {
+ 	opacity: 0.85;
+}
+#header-center-carousel-single .bg {
+	background-image: url('../images/bg-work-1.jpg');
+	background-size: cover;
+	-webkit-background-size: cover;
+	background-repeat: no-repeat;
+	-webkit-background-repeat: no-repeat;
+	background-position: center center;
+	opacity: 0.12;
+}
+#header-center-carousel-single {
+	background: linear-gradient(135deg, #8cc63f, #00aeef);
+}
+
+
+#action-center-text-btn-3 {
+	background: #353b4a;
+}
+
+#benefit-2col-border {
+    background: #fbf8f4;
+}
+#team-2col-2row-2 {
+	background: #353b4a;
+}
+
+#desc-img-slogan-text-list .bg {
+    background-image: url('../images/bg-pattern-5.png');
+	background-size: 80px auto;
+	-webkit-background-size: 80px auto;
+	background-repeat: repeat-x;
+	-webkit-background-repeat: repeat-x;
+	background-position: center center;
+	opacity: 0.3;
+}
+#team-3col-2 {
+	background: linear-gradient(135deg, #00aeef, #8cc63f);
+}#desc-accordion {
+	background: #f8f9fb;
+}
+#clients-carousel-2 {
+	background: #353b4a;
+}
+#subscribe-social-field {
+	background: linear-gradient(135deg, #00aeef, #8cc63f);
+}
+
+#team-3col .bg {
+    background-image: url('../images/title-bg-staff.png');
+    background-size: 608px auto;
+    -webkit-background-size: 608px auto;
+    background-repeat: no-repeat;
+    -webkit-background-repeat: no-repeat;
+    background-position: top center;
+    opacity: 0.07;
+}#desc-img-text-3col-2 .bg {
+    background-image: url('../images/bg-blur-5.jpg');
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-repeat: no-repeat;
+    background-position: bottom center;
+    opacity: 0.08;
+}

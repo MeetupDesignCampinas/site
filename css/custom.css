@@ -1,0 +1,384 @@
+/* --------------- Color Style ------------------ */
+.bg-1-color-dark {
+background-color: #353B4A;
+}
+.dark-page #preloader {
+background-color: #353B4A;
+}
+.dark-page {
+background-color: #353B4A;
+}
+.dark-page #preloader > div, .dark-page #preloader > div > *, .dark-page #preloader > div:before, .dark-page #preloader > div:after {
+border-color: #f3f3f3;
+background-color: #f3f3f3;
+}
+.bg-1-color-light {
+background-color: #ffffff;
+}
+.light-page #preloader {
+background-color: #ffffff;
+}
+.light-page {
+background-color: #ffffff;
+}
+.light-page #preloader > div, .light-page #preloader > div > *, .light-page #preloader > div:before, .light-page #preloader > div:after {
+border-color: #888888;
+background-color: #888888;
+}
+.dark  {
+color: #ffffff;
+}
+.dark mark {
+color: #000000;
+}
+.dark mark {
+background-color: #ffff60;
+}
+.dark h1 {
+color: #ffffff;
+}
+.dark h2 {
+color: #ffffff;
+}
+.dark h3 {
+color: #ffffff;
+}
+.dark h4 {
+color: #ffffff;
+}
+.dark.sep-b:after {
+border-color: #777777;
+}
+.dark.sep-full-b:after {
+border-color: #777777;
+}
+.dark hr {
+border-color: #777777;
+}
+.dark .border-box {
+border-color: #777777;
+}
+.dark .text-icon-list.text-icon-list-sep li {
+border-color: #777777;
+}
+.dark .step-line-ltc {
+border-color: #edf8ff;
+}
+.dark .step-line-rtc {
+border-color: #edf8ff;
+}
+.dark .step-line-ctl {
+border-color: #edf8ff;
+}
+.dark .step-line-ctr {
+border-color: #edf8ff;
+}
+.dark  .step-line-start:before {
+border-color: #edf8ff;
+}
+.dark  .step-line-end:before {
+border-color: #edf8ff;
+}
+.dark a:not(.btn):not(.gallery-box):not(.goodshare) {
+color: #ffffff;
+}
+.dark a.btn-link {
+color: #ffffff;
+}
+.dark a:not(.btn):not(.gallery-box):not(.goodshare):hover {
+color: #f4f4f4;
+}
+.dark .btn-primary {
+background-color: #07bcf7;
+border-color: #07bcf7;
+}
+.dark .btn-primary:hover {
+background-color: #039dd0;
+border-color: #039dd0;
+}
+.dark .btn-default {
+color: #ffffff;
+border-color: #ffffff;
+}
+.dark .btn-default:hover {
+color: #eeeeee;
+border-color: #eeeeee;
+}
+.dark i.icon-color {
+color: #FFFFFF;
+}
+.dark .owl-next {
+border-color: #FFFFFF;
+}
+.dark .owl-prev {
+border-color: #FFFFFF;
+}
+.dark .owl-dot {
+border-color: #FFFFFF;
+}
+.dark .gallery-box {
+background: #353B4A;
+}
+.dark .gallery-box {
+color: #FFFFFF;
+}
+.dark .checkbox .lbl::before {
+background: #FFFFFF;
+}
+.dark .radio .lbl::before {
+background: #FFFFFF;
+}
+.dark .form-control {
+background: #FFFFFF;
+}
+.dark .form-inline .btn.btn-link {
+background: #FFFFFF;
+}
+.dark .form-group input {
+color: #222222;
+}
+.dark .form-group select {
+color: #222222;
+}
+.dark .input-group input {
+color: #222222;
+}
+.dark .form-group textarea {
+color: #222222;
+}
+.dark .form-inline .btn.btn-link {
+color: #222222;
+}
+.dark .checkbox .lbl::before {
+border-color: #EEEEEE;
+}
+.dark .radio .lbl::before {
+border-color: #EEEEEE;
+}
+.dark .form-control {
+border-color: #EEEEEE;
+}
+.dark .form-inline .btn.btn-link {
+border-color: #EEEEEE;
+}
+.dark .checkbox .lbl::after {
+background: #00C0FF;
+}
+.dark .radio .lbl::after {
+background: #00C0FF;
+}
+.dark .form-control::-webkit-input-placeholder {
+color: #999999;
+}
+.dark .form-control::-moz-placeholder {
+color: #999999;
+}
+.dark .form-control:-ms-input-placeholder {
+color: #999999;
+}
+.dark .select-group:before {
+color: #999999;
+}
+.dark .datepicker-group:before {
+color: #999999;
+}
+.dark .radio .label-name {
+color: #999999;
+}
+.light  {
+color: #444444;
+}
+.light mark {
+color: #000000;
+}
+.light mark {
+background-color: #ffff60;
+}
+.light h1 {
+color: #222222;
+}
+.light h2 {
+color: #444444;
+}
+.light h3 {
+color: #444444;
+}
+.light h4 {
+color: #555555;
+}
+.light.sep-b:after {
+border-color: #eeeeee;
+}
+.light.sep-full-b:after {
+border-color: #eeeeee;
+}
+.light hr {
+border-color: #eeeeee;
+}
+.light .border-box {
+border-color: #eeeeee;
+}
+.light .text-icon-list.text-icon-list-sep li {
+border-color: #eeeeee;
+}
+.light .step-line-ltc {
+border-color: #72c9ff;
+}
+.light .step-line-rtc {
+border-color: #72c9ff;
+}
+.light .step-line-ctl {
+border-color: #72c9ff;
+}
+.light .step-line-ctr {
+border-color: #72c9ff;
+}
+.light  .step-line-start:before {
+border-color: #72c9ff;
+}
+.light  .step-line-end:before {
+border-color: #72c9ff;
+}
+.light a:not(.btn):not(.gallery-box):not(.goodshare) {
+color: #222;
+}
+.light a.btn-link {
+color: #222;
+}
+.light a:not(.btn):not(.gallery-box):not(.goodshare):hover {
+color: #00a7ff;
+}
+.light .btn-primary {
+background-color: #07bcf7;
+border-color: #07bcf7;
+}
+.light .btn-primary:hover {
+background-color: #039dd0;
+border-color: #039dd0;
+}
+.light .btn-default {
+color: #555555;
+border-color: #555555;
+}
+.light .btn-default:hover {
+color: #222222;
+border-color: #222222;
+}
+.light i.icon-color {
+color: #aaaaaa;
+}
+.light .owl-next {
+border-color: #444444;
+}
+.light .owl-prev {
+border-color: #444444;
+}
+.light .owl-dot {
+border-color: #444444;
+}
+.light .gallery-box {
+background: #FFFFFF;
+}
+.light .gallery-box {
+color: #222222;
+}
+.light .checkbox .lbl::before {
+background: #FFFFFF;
+}
+.light .radio .lbl::before {
+background: #FFFFFF;
+}
+.light .form-control {
+background: #FFFFFF;
+}
+.light .form-inline .btn.btn-link {
+background: #FFFFFF;
+}
+.light .form-group input {
+color: #222222;
+}
+.light .form-group select {
+color: #222222;
+}
+.light .input-group input {
+color: #222222;
+}
+.light .form-group textarea {
+color: #222222;
+}
+.light .form-inline .btn.btn-link {
+color: #222222;
+}
+.light .checkbox .lbl::before {
+border-color: #EEEEEE;
+}
+.light .radio .lbl::before {
+border-color: #EEEEEE;
+}
+.light .form-control {
+border-color: #EEEEEE;
+}
+.light .form-inline .btn.btn-link {
+border-color: #EEEEEE;
+}
+.light .checkbox .lbl::after {
+background: #00C0FF;
+}
+.light .radio .lbl::after {
+background: #00C0FF;
+}
+.light .form-control::-webkit-input-placeholder {
+color: #999999;
+}
+.light .form-control::-moz-placeholder {
+color: #999999;
+}
+.light .form-control:-ms-input-placeholder {
+color: #999999;
+}
+.light .select-group:before {
+color: #999999;
+}
+.light .datepicker-group:before {
+color: #999999;
+}
+.light .radio .label-name {
+color: #999999;
+}
+
+/* ------------------ Typography --------------------- */
+body {
+	font-family: 'Open Sans';
+	font-size: 15px;
+	font-style: inherit;
+	font-weight: 400;
+	text-transform: inherit;
+}
+h1 {
+	font-family: 'Roboto';
+	font-size: 42px;
+	font-style: inherit;
+	font-weight: 100;
+	text-transform: inherit;
+}
+h2 {
+	font-family: 'Nunito Sans';
+	font-size: 36px;
+	font-style: inherit;
+	font-weight: 200;
+	text-transform: inherit;
+}
+h3 {
+	font-family: 'Nunito Sans';
+	font-size: 26px;
+	font-style: inherit;
+	font-weight: 300;
+	text-transform: inherit;
+}
+h4 {
+	font-family: 'Nunito Sans';
+	font-size: 20px;
+	font-style: inherit;
+	font-weight: 300;
+	text-transform: inherit;
+}
