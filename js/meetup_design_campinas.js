@@ -12,8 +12,6 @@
 document.addEventListener('DOMContentLoaded', function() {
 
 
-
-
 //------------------------------------------------------------------------
 //						OWL CAROUSEL OPTIONS
 //------------------------------------------------------------------------
@@ -33,7 +31,9 @@ $('.carousel-single-nav').owlCarousel({
 
 
 
-
+$(function() {
+  $('a[rel=scroll]').smoothScroll();
+});
 
 
 
@@ -145,4 +145,6 @@ $('#subscribe-social-field-form').submit(function () {
 
 
 });
+
+
 ANALYTICS

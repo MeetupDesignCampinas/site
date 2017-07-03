@@ -4,6 +4,17 @@
 nav.navbar {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
+.hero-intro h1 {
+
+}
+
+.hero-intro h2 {
+	font-size: 35px;
+}
+
+.hero-intro h1 {
+	
+}
 
 .meetup-infos {
 
@@ -24,4 +35,23 @@ nav.navbar {
 .meetup-infos h4 {
 	font-size: 20px;
 	margin: 0 0 5px 0;
+}
+
+hr.thin-line {
+	border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+#organizadores .team-box h4 {
+	font-size: 16px;
+
+}
+.cta {
+	background: linear-gradient(135deg, #8cc63f, #00aeef);
+}
+.thanks-partners {
+	background: #2c303c;
+}
+
+.content-img {
+	max-width: 60px !important;
 }
