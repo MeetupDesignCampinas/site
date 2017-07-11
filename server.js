@@ -1,29 +1,29 @@
-'use strict';
+const http = require('http');
+const fs = require('fs');
+const path = require('path');
+const mime = require('mime');
 
-var http = require('http');
-var fs = require('fs');
-var path = require('path');
-var mime = require('mime');
+const port = process.env.PORT || 3000;
 
-function send404 (response) {
+function send404(response) {
   response.writeHead(404, {'Content-type': 'text/plain'});
   response.write('Error 404: resource not found');
   response.end();
 }
 
-function sendPage (response, filePath, fileContents) {
+function sendPage(response, filePath, fileContents) {
   response.writeHead(200, {'Content-type': mime.lookup(path.basename(filePath))});
   response.end(fileContents);
 }
 
-function serverWorking (response, absPath) {
-  fs.exists(absPath, function (exists) {
+function serverWorking(response, absolutePath) {
+  fs.exists(absolutePath, exists => {
     if (exists) {
-      fs.readFile(absPath, function (err, data) {
+      fs.readFile(absolutePath, (err, data) => {
         if (err) {
           send404(response);
         } else {
-          sendPage(response, absPath, data);
+          sendPage(response, absolutePath, data);
         }
       });
     } else {
@@ -32,8 +32,10 @@ function serverWorking (response, absPath) {
   });
 }
 
-var server = http.createServer(function (request, response) {
-  var filePath = false;
+const requestHandler = (request, response) => {
+  console.log(request.url);
+
+  let filePath;
 
   if (request.url === '/') {
     filePath = '/index.html';
@@ -41,10 +43,16 @@ var server = http.createServer(function (request, response) {
     filePath = '/' + request.url;
   }
 
-  var absPath = './' + filePath;
-  serverWorking(response, absPath);
-});
+  const absolutePath = './' + filePath;
+  serverWorking(response, absolutePath);
+};
 
-/* eslint-disable camelcase, no-unused-vars */
-var port_number = server.listen(process.env.PORT || 3000);
-/* eslint-enable camelcase, no-unused-vars */
+const server = http.createServer(requestHandler);
+
+server.listen(port, err => {
+  if (err) {
+    return console.log('something bad happened', err);
+  }
+
+  console.log(`server is listening on ${port}`);
+});
