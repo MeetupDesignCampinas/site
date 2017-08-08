@@ -1,4 +1,7 @@
 /* --------------- Color Style ------------------ */
+#seja-palestrante {
+	background: #484e5f;
+}
 .bg-1-color-dark {
 background-color: #353B4A;
 }
@@ -246,7 +249,7 @@ color: #222;
 color: #222;
 }
 .light a:not(.btn):not(.gallery-box):not(.goodshare):hover {
-color: #00a7ff;
+    color: #5cb85c;
 }
 .light .btn-primary {
 background-color: #07bcf7;
