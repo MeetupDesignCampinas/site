@@ -2,6 +2,26 @@
 #seja-palestrante {
 	background: #484e5f;
 }
+.foto-palestrante-programacao {
+	max-width: 200px;
+	border-radius: 400px;
+	margin: 40px 20px 20px 20px;
+}
+.logo-local-programacao {
+	max-width: 300px;
+	margin: 0 auto;
+	margin: 40px 20px 20px 20px;
+}
+.foto-local-programacao {
+	max-width: 600px;
+	margin: 0 auto;
+	margin: 40px 20px 20px 20px;
+}
+.box-header-paragraph {
+	font-size: 16px;
+	max-width: 80%;
+	margin: 40px auto;
+}
 .bg-1-color-dark {
 background-color: #353B4A;
 }
